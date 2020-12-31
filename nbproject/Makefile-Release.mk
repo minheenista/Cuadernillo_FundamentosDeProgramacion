@@ -38,7 +38,11 @@ OBJECTFILES= \
 	${OBJECTDIR}/1_AnioBisiesto.o \
 	${OBJECTDIR}/2_TazasDeCafe.o \
 	${OBJECTDIR}/3_AteezPalabras.o \
-	${OBJECTDIR}/4_PerimetrosAreas.o
+	${OBJECTDIR}/4_PerimetrosAreas.o \
+	${OBJECTDIR}/5_Divisores.o \
+	${OBJECTDIR}/6_Factorial.o \
+	${OBJECTDIR}/7_OrdenacionSeleccion.o \
+	${OBJECTDIR}/8_Calificaciones.o
 
 
 # C Compiler Flags
@@ -84,6 +88,26 @@ ${OBJECTDIR}/4_PerimetrosAreas.o: 4_PerimetrosAreas.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4_PerimetrosAreas.o 4_PerimetrosAreas.c
+
+${OBJECTDIR}/5_Divisores.o: 5_Divisores.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/5_Divisores.o 5_Divisores.c
+
+${OBJECTDIR}/6_Factorial.o: 6_Factorial.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/6_Factorial.o 6_Factorial.c
+
+${OBJECTDIR}/7_OrdenacionSeleccion.o: 7_OrdenacionSeleccion.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/7_OrdenacionSeleccion.o 7_OrdenacionSeleccion.c
+
+${OBJECTDIR}/8_Calificaciones.o: 8_Calificaciones.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/8_Calificaciones.o 8_Calificaciones.c
 
 # Subprojects
 .build-subprojects:

@@ -16,6 +16,10 @@
       <itemPath>2_TazasDeCafe.c</itemPath>
       <itemPath>3_AteezPalabras.c</itemPath>
       <itemPath>4_PerimetrosAreas.c</itemPath>
+      <itemPath>5_Divisores.c</itemPath>
+      <itemPath>6_Factorial.c</itemPath>
+      <itemPath>7_OrdenacionSeleccion.c</itemPath>
+      <itemPath>8_Calificaciones.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -39,7 +43,7 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="4_PerimetrosAreas.c" ex="false" tool="0" flavor2="0">
+      <item path="8_Calificaciones.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
     <conf name="Release" type="1">
@@ -69,6 +73,14 @@
       <item path="3_AteezPalabras.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="4_PerimetrosAreas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="5_Divisores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="6_Factorial.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="7_OrdenacionSeleccion.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="8_Calificaciones.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>

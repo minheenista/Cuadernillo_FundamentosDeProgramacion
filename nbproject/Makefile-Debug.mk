@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/4_PerimetrosAreas.o
+	${OBJECTDIR}/8_Calificaciones.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cuadernillo_25problemas.exe: ${OBJECT
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cuadernillo_25problemas ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/4_PerimetrosAreas.o: 4_PerimetrosAreas.c
+${OBJECTDIR}/8_Calificaciones.o: 8_Calificaciones.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/4_PerimetrosAreas.o 4_PerimetrosAreas.c
+	$(COMPILE.c) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/8_Calificaciones.o 8_Calificaciones.c
 
 # Subprojects
 .build-subprojects:
