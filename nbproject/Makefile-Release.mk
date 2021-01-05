@@ -35,6 +35,8 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/10_Zodiaco.o \
+	${OBJECTDIR}/11_Pascal.o \
 	${OBJECTDIR}/1_AnioBisiesto.o \
 	${OBJECTDIR}/2_TazasDeCafe.o \
 	${OBJECTDIR}/3_AteezPalabras.o \
@@ -42,7 +44,8 @@ OBJECTFILES= \
 	${OBJECTDIR}/5_Divisores.o \
 	${OBJECTDIR}/6_Factorial.o \
 	${OBJECTDIR}/7_OrdenacionSeleccion.o \
-	${OBJECTDIR}/8_Calificaciones.o
+	${OBJECTDIR}/8_Calificaciones.o \
+	${OBJECTDIR}/9_recetas.o
 
 
 # C Compiler Flags
@@ -68,6 +71,16 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cuadernillo_25problemas.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cuadernillo_25problemas ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/10_Zodiaco.o: 10_Zodiaco.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/10_Zodiaco.o 10_Zodiaco.c
+
+${OBJECTDIR}/11_Pascal.o: 11_Pascal.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/11_Pascal.o 11_Pascal.c
 
 ${OBJECTDIR}/1_AnioBisiesto.o: 1_AnioBisiesto.c
 	${MKDIR} -p ${OBJECTDIR}
@@ -108,6 +121,11 @@ ${OBJECTDIR}/8_Calificaciones.o: 8_Calificaciones.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/8_Calificaciones.o 8_Calificaciones.c
+
+${OBJECTDIR}/9_recetas.o: 9_recetas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/9_recetas.o 9_recetas.c
 
 # Subprojects
 .build-subprojects:

@@ -12,6 +12,8 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>10_Zodiaco.c</itemPath>
+      <itemPath>11_Pascal.c</itemPath>
       <itemPath>1_AnioBisiesto.c</itemPath>
       <itemPath>2_TazasDeCafe.c</itemPath>
       <itemPath>3_AteezPalabras.c</itemPath>
@@ -20,6 +22,7 @@
       <itemPath>6_Factorial.c</itemPath>
       <itemPath>7_OrdenacionSeleccion.c</itemPath>
       <itemPath>8_Calificaciones.c</itemPath>
+      <itemPath>9_recetas.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -43,8 +46,6 @@
       </toolsSet>
       <compileType>
       </compileType>
-      <item path="8_Calificaciones.c" ex="false" tool="0" flavor2="0">
-      </item>
     </conf>
     <conf name="Release" type="1">
       <toolsSet>
@@ -66,6 +67,10 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="10_Zodiaco.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="11_Pascal.c" ex="false" tool="0" flavor2="0">
+      </item>
       <item path="1_AnioBisiesto.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="2_TazasDeCafe.c" ex="false" tool="0" flavor2="0">
@@ -81,6 +86,8 @@
       <item path="7_OrdenacionSeleccion.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="8_Calificaciones.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="9_recetas.c" ex="false" tool="0" flavor2="0">
       </item>
     </conf>
   </confs>
