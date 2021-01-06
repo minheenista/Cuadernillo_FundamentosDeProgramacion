@@ -14,6 +14,14 @@
                    projectFiles="true">
       <itemPath>10_Zodiaco.c</itemPath>
       <itemPath>11_Pascal.c</itemPath>
+      <itemPath>12_Ceros.c</itemPath>
+      <itemPath>13_SumaPares.c</itemPath>
+      <itemPath>14_JuegoNim.c</itemPath>
+      <itemPath>15_Resistencias.c</itemPath>
+      <itemPath>16_Pascua.c</itemPath>
+      <itemPath>17_Chicharronera.c</itemPath>
+      <itemPath>18_Histograma.c</itemPath>
+      <itemPath>19_Matrices.c</itemPath>
       <itemPath>1_AnioBisiesto.c</itemPath>
       <itemPath>2_TazasDeCafe.c</itemPath>
       <itemPath>3_AteezPalabras.c</itemPath>
@@ -70,6 +78,22 @@
       <item path="10_Zodiaco.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="11_Pascal.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="12_Ceros.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="13_SumaPares.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="14_JuegoNim.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="15_Resistencias.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="16_Pascua.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="17_Chicharronera.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="18_Histograma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="19_Matrices.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="1_AnioBisiesto.c" ex="false" tool="0" flavor2="0">
       </item>

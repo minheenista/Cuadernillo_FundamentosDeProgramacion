@@ -37,6 +37,14 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 OBJECTFILES= \
 	${OBJECTDIR}/10_Zodiaco.o \
 	${OBJECTDIR}/11_Pascal.o \
+	${OBJECTDIR}/12_Ceros.o \
+	${OBJECTDIR}/13_SumaPares.o \
+	${OBJECTDIR}/14_JuegoNim.o \
+	${OBJECTDIR}/15_Resistencias.o \
+	${OBJECTDIR}/16_Pascua.o \
+	${OBJECTDIR}/17_Chicharronera.o \
+	${OBJECTDIR}/18_Histograma.o \
+	${OBJECTDIR}/19_Matrices.o \
 	${OBJECTDIR}/1_AnioBisiesto.o \
 	${OBJECTDIR}/2_TazasDeCafe.o \
 	${OBJECTDIR}/3_AteezPalabras.o \
@@ -81,6 +89,46 @@ ${OBJECTDIR}/11_Pascal.o: 11_Pascal.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/11_Pascal.o 11_Pascal.c
+
+${OBJECTDIR}/12_Ceros.o: 12_Ceros.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/12_Ceros.o 12_Ceros.c
+
+${OBJECTDIR}/13_SumaPares.o: 13_SumaPares.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/13_SumaPares.o 13_SumaPares.c
+
+${OBJECTDIR}/14_JuegoNim.o: 14_JuegoNim.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/14_JuegoNim.o 14_JuegoNim.c
+
+${OBJECTDIR}/15_Resistencias.o: 15_Resistencias.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/15_Resistencias.o 15_Resistencias.c
+
+${OBJECTDIR}/16_Pascua.o: 16_Pascua.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/16_Pascua.o 16_Pascua.c
+
+${OBJECTDIR}/17_Chicharronera.o: 17_Chicharronera.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/17_Chicharronera.o 17_Chicharronera.c
+
+${OBJECTDIR}/18_Histograma.o: 18_Histograma.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/18_Histograma.o 18_Histograma.c
+
+${OBJECTDIR}/19_Matrices.o: 19_Matrices.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/19_Matrices.o 19_Matrices.c
 
 ${OBJECTDIR}/1_AnioBisiesto.o: 1_AnioBisiesto.c
 	${MKDIR} -p ${OBJECTDIR}
