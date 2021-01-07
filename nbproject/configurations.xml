@@ -23,6 +23,12 @@
       <itemPath>18_Histograma.c</itemPath>
       <itemPath>19_Matrices.c</itemPath>
       <itemPath>1_AnioBisiesto.c</itemPath>
+      <itemPath>20_Vectores.c</itemPath>
+      <itemPath>21_Horas.c</itemPath>
+      <itemPath>22_Interseccion.c</itemPath>
+      <itemPath>23_GirarMatriz.c</itemPath>
+      <itemPath>24_Estadistica.c</itemPath>
+      <itemPath>25_Primos.c</itemPath>
       <itemPath>2_TazasDeCafe.c</itemPath>
       <itemPath>3_AteezPalabras.c</itemPath>
       <itemPath>4_PerimetrosAreas.c</itemPath>
@@ -96,6 +102,18 @@
       <item path="19_Matrices.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="1_AnioBisiesto.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="20_Vectores.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="21_Horas.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="22_Interseccion.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="23_GirarMatriz.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="24_Estadistica.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="25_Primos.c" ex="false" tool="0" flavor2="0">
       </item>
       <item path="2_TazasDeCafe.c" ex="false" tool="0" flavor2="0">
       </item>

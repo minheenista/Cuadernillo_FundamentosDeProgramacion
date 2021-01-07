@@ -46,6 +46,12 @@ OBJECTFILES= \
 	${OBJECTDIR}/18_Histograma.o \
 	${OBJECTDIR}/19_Matrices.o \
 	${OBJECTDIR}/1_AnioBisiesto.o \
+	${OBJECTDIR}/20_Vectores.o \
+	${OBJECTDIR}/21_Horas.o \
+	${OBJECTDIR}/22_Interseccion.o \
+	${OBJECTDIR}/23_GirarMatriz.o \
+	${OBJECTDIR}/24_Estadistica.o \
+	${OBJECTDIR}/25_Primos.o \
 	${OBJECTDIR}/2_TazasDeCafe.o \
 	${OBJECTDIR}/3_AteezPalabras.o \
 	${OBJECTDIR}/4_PerimetrosAreas.o \
@@ -134,6 +140,36 @@ ${OBJECTDIR}/1_AnioBisiesto.o: 1_AnioBisiesto.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/1_AnioBisiesto.o 1_AnioBisiesto.c
+
+${OBJECTDIR}/20_Vectores.o: 20_Vectores.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/20_Vectores.o 20_Vectores.c
+
+${OBJECTDIR}/21_Horas.o: 21_Horas.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/21_Horas.o 21_Horas.c
+
+${OBJECTDIR}/22_Interseccion.o: 22_Interseccion.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/22_Interseccion.o 22_Interseccion.c
+
+${OBJECTDIR}/23_GirarMatriz.o: 23_GirarMatriz.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/23_GirarMatriz.o 23_GirarMatriz.c
+
+${OBJECTDIR}/24_Estadistica.o: 24_Estadistica.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/24_Estadistica.o 24_Estadistica.c
+
+${OBJECTDIR}/25_Primos.o: 25_Primos.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/25_Primos.o 25_Primos.c
 
 ${OBJECTDIR}/2_TazasDeCafe.o: 2_TazasDeCafe.c
 	${MKDIR} -p ${OBJECTDIR}
